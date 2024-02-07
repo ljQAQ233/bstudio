@@ -1,0 +1,527 @@
+Trying ::1...
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+InitializeQemuVideo: ImageHandle : 3096098
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 275AD40
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 275AD40 onto handle 3096098
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 275ACC0
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 275ACC0 onto handle 3096098
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 275ACE0
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 275ACE0 onto handle 3096098
+InstallProtocolInterface: 5C198761-16A8-4E69-972C-89D67954F81D 275AE00
+InstallProtocolInterface: 5C198761-16A8-4E69-972C-89D67954F81D 275AE00 onto handle 3096098
+Loading driver D6099B94-CD97-4CC5-8714-7F6312701A8A
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 30967C0
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 30967C0 onto handle 3096A18
+    PDB = /home/maouai233/TextOS/Build/Boot/OVMF_X64/NOOPT_GCC5/X64/OvmfPkg/VirtioGpuDxe/VirtioGpu/DEBUG/VirtioGpuDxe.dll
+Loading driver at 0x00002744000 EntryPoint=0x0000274A382 VirtioGpuDxe.efi
+SortedDriverBindingProtocols -> 
+Index = 0, Binding = 27AB8E0
+Index = 1, Binding = 279AEA0
+Index = 2, Binding = 27B8DC0
+Index = 3, Binding = 3A22880
+Index = 4, Binding = 2765F80
+Index = 5, Binding = 2998340
+Index = 6, Binding = 29902C0
+Index = 7, Binding = 2989040
+Index = 8, Binding = 29832C0
+Index = 9, Binding = 290F940
+Index = 10, Binding = 28FD900
+Index = 11, Binding = 28F0CC0
+Index = 12, Binding = 27C4840
+Index = 13, Binding = 29ACF20
+Index = 14, Binding = 29A67E0
+Index = 15, Binding = 299FC80
+Index = 16, Binding = 275AD40
+Index = 17, Binding = 29404A0
+Index = 18, Binding = 29494E0
+Index = 19, Binding = 2957840
+Index = 20, Binding = 292FE20
+Index = 21, Binding = 29278E0
+Index = 22, Binding = 2916680
+Index = 23, Binding = 29791E0
+Index = 24, Binding = 2979220
+Index = 25, Binding = 2971B20
+Index = 26, Binding = 28DF340
+Index = 27, Binding = 28D9AC0
+Index = 28, Binding = 28D1040
+Index = 29, Binding = 28C4FC0
+Index = 30, Binding = 28B3DA0
+Index = 31, Binding = 28A1CC0
+Index = 32, Binding = 2894220
+Index = 33, Binding = 2880860
+Index = 34, Binding = 2874280
+Index = 35, Binding = 2867120
+Index = 36, Binding = 2853600
+Index = 37, Binding = 28337C0
+Index = 38, Binding = 28223A0
+Index = 39, Binding = 2810D80
+Index = 40, Binding = 27F47A0
+Index = 41, Binding = 27E18A0
+Index = 42, Binding = 2971BE0
+Index = 43, Binding = 2971C20
+Index = 44, Binding = 29C8700
+Index = 45, Binding = 2971B60
+Index = 46, Binding = 2783AC0
+Index = 47, Binding = 2772680
+Index = 48, Binding = 2971BA0
+Index = 49, Binding = 2962D40
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 3096B18
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 3096B18 onto handle 3096A18
+ProtectUefiImageCommon - 0x30967C0
+  - 0x0000000002744000 - 0x000000000000A500
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 274E1C0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 274E1C0 onto handle 3096A18
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 274E1A0
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 274E1A0 onto handle 3096A18
+[Bds] Entry...
+[BdsDxe] Locate Variable Lock protocol - Success
+[Variable] Lock: 8BE4DF61-93CA-11D2-AA0D-00E098032B8C:PlatformLangCodes Success
+[Variable] Lock: 8BE4DF61-93CA-11D2-AA0D-00E098032B8C:LangCodes Success
+[Variable] Lock: 8BE4DF61-93CA-11D2-AA0D-00E098032B8C:BootOptionSupport Success
+[Variable] Lock: 8BE4DF61-93CA-11D2-AA0D-00E098032B8C:HwErrRecSupport Success
+[Variable] Lock: 8BE4DF61-93CA-11D2-AA0D-00E098032B8C:OsIndicationsSupported Success
+Variable Driver Auto Update Lang, Lang:eng, PlatformLang:en Status: Success
+[Variable] Lock: 8BE4DF61-93CA-11D2-AA0D-00E098032B8C:PlatformRecovery0000 Success
+PlatformBootManagerBeforeConsole
+Registered NotifyDevPath Event
+SortedDriverBindingProtocols -> 
+Index = 0, Binding = 27AB8E0
+Index = 1, Binding = 279AEA0
+Index = 2, Binding = 27B8DC0
+Index = 3, Binding = 3A22880
+Index = 4, Binding = 2765F80
+Index = 5, Binding = 2998340
+Index = 6, Binding = 29902C0
+Index = 7, Binding = 2989040
+Index = 8, Binding = 29832C0
+Index = 9, Binding = 290F940
+Index = 10, Binding = 28FD900
+Index = 11, Binding = 28F0CC0
+Index = 12, Binding = 27C4840
+Index = 13, Binding = 29ACF20
+Index = 14, Binding = 29A67E0
+Index = 15, Binding = 299FC80
+Index = 16, Binding = 275AD40
+Index = 17, Binding = 274E1C0
+Index = 18, Binding = 29404A0
+Index = 19, Binding = 29494E0
+Index = 20, Binding = 292FE20
+Index = 21, Binding = 29278E0
+Index = 22, Binding = 2916680
+Index = 23, Binding = 29791E0
+Index = 24, Binding = 2979220
+Index = 25, Binding = 2971B20
+Index = 26, Binding = 28DF340
+Index = 27, Binding = 28D9AC0
+Index = 28, Binding = 28D1040
+Index = 29, Binding = 28C4FC0
+Index = 30, Binding = 28B3DA0
+Index = 31, Binding = 28A1CC0
+Index = 32, Binding = 2894220
+Index = 33, Binding = 2880860
+Index = 34, Binding = 2874280
+Index = 35, Binding = 2867120
+Index = 36, Binding = 2853600
+Index = 37, Binding = 28337C0
+Index = 38, Binding = 28223A0
+Index = 39, Binding = 2810D80
+Index = 40, Binding = 27F47A0
+Index = 41, Binding = 27E18A0
+Index = 42, Binding = 2971BE0
+Index = 43, Binding = 2971C20
+Index = 44, Binding = 29C8700
+Index = 45, Binding = 2971B60
+Index = 46, Binding = 2783AC0
+Index = 47, Binding = 2772680
+Index = 48, Binding = 2971BA0
+Index = 49, Binding = 2962D40
+Index = 50, Binding = 2957840
+PCI Bus First Scanning
+PciBus: Discovered PCI @ [00|00|00]
+
+PciBus: Discovered PCI @ [00|01|00]
+
+PciBus: Discovered PCI @ [00|01|01]
+   BAR[4]: Type =   Io32; Alignment = 0xF;	Length = 0x10;	Offset = 0x20	Vendor = 0x8086
+
+PciBus: Discovered PCI @ [00|01|03]
+
+PciBus: Discovered PCI @ [00|02|00]
+   BAR[0]: Type = PMem32; Alignment = 0xFFFFFF;	Length = 0x1000000;	Offset = 0x10	Vendor = 0x1234
+   BAR[2]: Type =  Mem32; Alignment = 0xFFF;	Length = 0x1000;	Offset = 0x18	Vendor = 0x1234
+
+PCI Bus Second Scanning
+PciBus: Discovered PCI @ [00|00|00]
+
+PciBus: Discovered PCI @ [00|01|00]
+
+PciBus: Discovered PCI @ [00|01|01]
+   BAR[4]: Type =   Io32; Alignment = 0xF;	Length = 0x10;	Offset = 0x20	Vendor = 0x8086
+
+PciBus: Discovered PCI @ [00|01|03]
+
+PciBus: Discovered PCI @ [00|02|00]
+   BAR[0]: Type = PMem32; Alignment = 0xFFFFFF;	Length = 0x1000000;	Offset = 0x10	Vendor = 0x1234
+   BAR[2]: Type =  Mem32; Alignment = 0xFFF;	Length = 0x1000;	Offset = 0x18	Vendor = 0x1234
+
+PciBus: Discovered PCI @ [00|00|00]
+
+PciBus: Discovered PCI @ [00|01|00]
+
+PciBus: Discovered PCI @ [00|01|01]
+   BAR[4]: Type =   Io32; Alignment = 0xF;	Length = 0x10;	Offset = 0x20	Vendor = 0x8086
+
+PciBus: Discovered PCI @ [00|01|03]
+
+PciBus: Discovered PCI @ [00|02|00]
+   BAR[0]: Type = PMem32; Alignment = 0xFFFFFF;	Length = 0x1000000;	Offset = 0x10	Vendor = 0x1234
+   BAR[2]: Type =  Mem32; Alignment = 0xFFF;	Length = 0x1000;	Offset = 0x18	Vendor = 0x1234
+
+PciHostBridge: SubmitResources for PciRoot(0x0)
+ I/O: Granularity/SpecificFlag = 0 / 01
+      Length/Alignment = 0x1000 / 0xFFF
+ Mem: Granularity/SpecificFlag = 32 / 00
+      Length/Alignment = 0x1100000 / 0xFFFFFF
+PciBus: HostBridge->SubmitResources() - Success
+PciHostBridge: NotifyPhase (AllocateResources)
+ RootBridge: PciRoot(0x0)
+  Mem: Base/Length/Alignment = 80000000/1100000/FFFFFF - Success
+  I/O: Base/Length/Alignment = C000/1000/FFF - Success
+PciBus: HostBridge->NotifyPhase(AllocateResources) - Success
+PciBus: Resource Map for Root Bridge PciRoot(0x0)
+Type =   Io16; Base = 0xC000;	Length = 0x1000;	Alignment = 0xFFF
+   Base = 0xC000;	Length = 0x10;	Alignment = 0xF;	Owner = PCI [00|01|01:20]
+Type =  Mem32; Base = 0x80000000;	Length = 0x1100000;	Alignment = 0xFFFFFF
+   Base = 0x80000000;	Length = 0x1000000;	Alignment = 0xFFFFFF;	Owner = PCI [00|02|00:10]; Type = PMem32
+   Base = 0x81000000;	Length = 0x1000;	Alignment = 0xFFF;	Owner = PCI [00|02|00:18]
+
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 3094C18
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 3094C18 onto handle 3095598
+InstallProtocolInterface: 4CF5B200-68B8-4CA5-9EEC-B23E3F50029A 3094428
+InstallProtocolInterface: 4CF5B200-68B8-4CA5-9EEC-B23E3F50029A 3094428 onto handle 3095598
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 3094C98
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 3094C98 onto handle 3095418
+InstallProtocolInterface: 4CF5B200-68B8-4CA5-9EEC-B23E3F50029A 3094828
+InstallProtocolInterface: 4CF5B200-68B8-4CA5-9EEC-B23E3F50029A 3094828 onto handle 3095418
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 3094D18
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 3094D18 onto handle 3093F18
+InstallProtocolInterface: 4CF5B200-68B8-4CA5-9EEC-B23E3F50029A 3093028
+InstallProtocolInterface: 4CF5B200-68B8-4CA5-9EEC-B23E3F50029A 3093028 onto handle 3093F18
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 3094D98
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 3094D98 onto handle 305B798
+InstallProtocolInterface: 4CF5B200-68B8-4CA5-9EEC-B23E3F50029A 3093428
+InstallProtocolInterface: 4CF5B200-68B8-4CA5-9EEC-B23E3F50029A 3093428 onto handle 305B798
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 3093E98
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 3093E98 onto handle 305B918
+InstallProtocolInterface: 4CF5B200-68B8-4CA5-9EEC-B23E3F50029A 3093828
+InstallProtocolInterface: 4CF5B200-68B8-4CA5-9EEC-B23E3F50029A 3093828 onto handle 305B918
+InstallProtocolInterface: 30CFE3E7-3DE1-4586-BE20-DEABA1B3B793 0
+InstallProtocolInterface: 30CFE3E7-3DE1-4586-BE20-DEABA1B3B793 0 onto handle 30D4498
+OnRootBridgesConnected: root bridges have been connected, installing ACPI tables
+Select Item: 0x19
+Select Item: 0x29
+Select Item: 0x19
+Select Item: 0x28
+Select Item: 0x19
+Select Item: 0x22
+Select Item: 0x19
+Select Item: 0x23
+InstallQemuFwCfgTables: installed 6 tables
+PcRtc: Write 0x20 to CMOS location 0x32
+[Variable]END_OF_DXE is signaled
+Initialize variable error flag (FF)
+AcpiS3ContextSave!
+AcpiS3Context: AcpiFacsTable is 0x 3BFC000
+AcpiS3Context: IdtrProfile is 0x 3BF0000
+AcpiS3Context: S3NvsPageTableAddress is 0x       0
+AcpiS3Context: S3DebugBufferAddress is 0x 273B000
+AcpiS3Context: BootScriptStackBase is 0x 273C000
+AcpiS3Context: BootScriptStackSize is 0x    8000
+Select Item: 0x19
+Select Item: 0x28
+InstallProtocolInterface: 60FF8964-E906-41D0-AFED-F241E974E08E 0
+InstallProtocolInterface: FA20568B-548B-4B2B-81EF-1BA08D4A3CEC 0
+InstallProtocolInterface: FA20568B-548B-4B2B-81EF-1BA08D4A3CEC 0 onto handle 3051C98
+    PDB = /home/maouai233/TextOS/Build/Boot/OVMF_X64/NOOPT_GCC5/X64/MdeModulePkg/Universal/Acpi/BootScriptExecutorDxe/BootScriptExecutorDxe/DEBUG/BootScriptExecutorDxe.dll
+Select Item: 0x0
+FW CFG Signature: 0x554D4551
+Select Item: 0x1
+FW CFG Revision: 0x3
+QemuFwCfg interface (DMA) is supported.
+Select Item: 0x19
+Select Item: 0x28
+InstallProtocolInterface: 60FF8964-E906-41D0-AFED-F241E974E08E 0 onto handle 3095218
+Found LPC Bridge device
+BdsPlatform.c+495: COM1 DevPath: PciRoot(0x0)/Pci(0x1,0x0)/Serial(0x0)/Uart(115200,8,N,1)/VenMsg(E0C14753-F9BE-11D2-9A0C-0090273FC14D)
+BdsPlatform.c+524: COM2 DevPath: PciRoot(0x0)/Pci(0x1,0x0)/Serial(0x1)/Uart(115200,8,N,1)/VenMsg(E0C14753-F9BE-11D2-9A0C-0090273FC14D)
+Found PCI display device
+SortedDriverBindingProtocols -> 
+Index = 0, Binding = 27AB8E0
+Index = 1, Binding = 279AEA0
+Index = 2, Binding = 27B8DC0
+Index = 3, Binding = 3A22880
+Index = 4, Binding = 2765F80
+Index = 5, Binding = 2998340
+Index = 6, Binding = 29902C0
+Index = 7, Binding = 2989040
+Index = 8, Binding = 29832C0
+Index = 9, Binding = 290F940
+Index = 10, Binding = 28FD900
+Index = 11, Binding = 28F0CC0
+Index = 12, Binding = 27C4840
+Index = 13, Binding = 29ACF20
+Index = 14, Binding = 29A67E0
+Index = 15, Binding = 299FC80
+Index = 16, Binding = 275AD40
+Index = 17, Binding = 274E1C0
+Index = 18, Binding = 29404A0
+Index = 19, Binding = 29494E0
+Index = 20, Binding = 292FE20
+Index = 21, Binding = 29278E0
+Index = 22, Binding = 2916680
+Index = 23, Binding = 29791E0
+Index = 24, Binding = 2979220
+Index = 25, Binding = 2971B20
+Index = 26, Binding = 28DF340
+Index = 27, Binding = 28D9AC0
+Index = 28, Binding = 28D1040
+Index = 29, Binding = 28C4FC0
+Index = 30, Binding = 28B3DA0
+Index = 31, Binding = 28A1CC0
+Index = 32, Binding = 2894220
+Index = 33, Binding = 2880860
+Index = 34, Binding = 2874280
+Index = 35, Binding = 2867120
+Index = 36, Binding = 2853600
+Index = 37, Binding = 28337C0
+Index = 38, Binding = 28223A0
+Index = 39, Binding = 2810D80
+Index = 40, Binding = 27F47A0
+Index = 41, Binding = 27E18A0
+Index = 42, Binding = 2971BE0
+Index = 43, Binding = 2971C20
+Index = 44, Binding = 29C8700
+Index = 45, Binding = 2971B60
+Index = 46, Binding = 2783AC0
+Index = 47, Binding = 2772680
+Index = 48, Binding = 2971BA0
+Index = 49, Binding = 2962D40
+Index = 50, Binding = 2957840
+QemuVideo: QEMU Standard VGA detected
+QemuVideo: Using mmio bar @ 0x81000000
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 304E018
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 304E018 onto handle 3051D98
+QemuVideoBochsModeSetup: AvailableFbSize=0x1000000
+Adding Mode 0 as Bochs Internal Mode 0: 640x480, 32-bit
+Adding Mode 1 as Bochs Internal Mode 1: 800x480, 32-bit
+Adding Mode 2 as Bochs Internal Mode 2: 800x600, 32-bit
+Adding Mode 3 as Bochs Internal Mode 3: 832x624, 32-bit
+Adding Mode 4 as Bochs Internal Mode 4: 960x640, 32-bit
+Adding Mode 5 as Bochs Internal Mode 5: 1024x600, 32-bit
+Adding Mode 6 as Bochs Internal Mode 6: 1024x768, 32-bit
+Adding Mode 7 as Bochs Internal Mode 7: 1152x864, 32-bit
+Adding Mode 8 as Bochs Internal Mode 8: 1152x870, 32-bit
+Adding Mode 9 as Bochs Internal Mode 9: 1280x720, 32-bit
+Adding Mode 10 as Bochs Internal Mode 10: 1280x760, 32-bit
+Adding Mode 11 as Bochs Internal Mode 11: 1280x768, 32-bit
+Adding Mode 12 as Bochs Internal Mode 12: 1280x800, 32-bit
+Adding Mode 13 as Bochs Internal Mode 13: 1280x960, 32-bit
+Adding Mode 14 as Bochs Internal Mode 14: 1280x1024, 32-bit
+Adding Mode 15 as Bochs Internal Mode 15: 1360x768, 32-bit
+Adding Mode 16 as Bochs Internal Mode 16: 1366x768, 32-bit
+Adding Mode 17 as Bochs Internal Mode 17: 1400x1050, 32-bit
+Adding Mode 18 as Bochs Internal Mode 18: 1440x900, 32-bit
+Adding Mode 19 as Bochs Internal Mode 19: 1600x900, 32-bit
+Adding Mode 20 as Bochs Internal Mode 20: 1600x1200, 32-bit
+Adding Mode 21 as Bochs Internal Mode 21: 1680x1050, 32-bit
+Adding Mode 22 as Bochs Internal Mode 22: 1920x1080, 32-bit
+Adding Mode 23 as Bochs Internal Mode 23: 1920x1200, 32-bit
+Adding Mode 24 as Bochs Internal Mode 24: 1920x1440, 32-bit
+Adding Mode 25 as Bochs Internal Mode 25: 2000x2000, 32-bit
+Adding Mode 26 as Bochs Internal Mode 26: 2048x1536, 32-bit
+Adding Mode 27 as Bochs Internal Mode 27: 2048x2048, 32-bit
+Adding Mode 28 as Bochs Internal Mode 28: 2560x1440, 32-bit
+Adding Mode 29 as Bochs Internal Mode 29: 2560x1600, 32-bit
+InitializeBochsGraphicsMode: 640x480 @ 32
+PixelBlueGreenRedReserved8BitPerColor
+FrameBufferBase: 0x80000000, FrameBufferSize: 0x12C000
+0: shl:0 shr:0 mask:FF0000
+1: shl:0 shr:0 mask:FF00
+2: shl:0 shr:0 mask:FF
+Bytes per pixel: 4
+0: shl:0 shr:0 mask:FF0000
+1: shl:0 shr:0 mask:FF00
+2: shl:0 shr:0 mask:FF
+Bytes per pixel: 4
+InstallProtocolInterface: 9042A9DE-23DC-4A38-96FB-7ADED080516A 34EC1B8
+InstallProtocolInterface: 9042A9DE-23DC-4A38-96FB-7ADED080516A 34EC1B8 onto handle 3051D98
+InstallVbeShim: VBE shim installed
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+Select Item: 0xE
+[Bds]RegisterKeyNotify: 000C/0000 80000000/00 Success
+[Bds]RegisterKeyNotify: 0017/0000 80000000/00 Success
+[Bds]RegisterKeyNotify: 0000/000D 80000000/00 Success
+SortedDriverBindingProtocols -> 
+Index = 0, Binding = 27AB8E0
+Index = 1, Binding = 279AEA0
+Index = 2, Binding = 27B8DC0
+Index = 3, Binding = 3A22880
+Index = 4, Binding = 2765F80
+Index = 5, Binding = 2998340
+Index = 6, Binding = 29902C0
+Index = 7, Binding = 2989040
+Index = 8, Binding = 29832C0
+Index = 9, Binding = 290F940
+Index = 10, Binding = 28FD900
+Index = 11, Binding = 28F0CC0
+Index = 12, Binding = 27C4840
+Index = 13, Binding = 29ACF20
+Index = 14, Binding = 29A67E0
+Index = 15, Binding = 299FC80
+Index = 16, Binding = 275AD40
+Index = 17, Binding = 274E1C0
+Index = 18, Binding = 29404A0
+Index = 19, Binding = 29494E0
+Index = 20, Binding = 292FE20
+Index = 21, Binding = 29278E0
+Index = 22, Binding = 2916680
+Index = 23, Binding = 29791E0
+Index = 24, Binding = 2979220
+Index = 25, Binding = 2971B20
+Index = 26, Binding = 28DF340
+Index = 27, Binding = 28D9AC0
+Index = 28, Binding = 28D1040
+Index = 29, Binding = 28C4FC0
+Index = 30, Binding = 28B3DA0
+Index = 31, Binding = 28A1CC0
+Index = 32, Binding = 2894220
+Index = 33, Binding = 2880860
+Index = 34, Binding = 2874280
+Index = 35, Binding = 2867120
+Index = 36, Binding = 2853600
+Index = 37, Binding = 28337C0
+Index = 38, Binding = 28223A0
+Index = 39, Binding = 2810D80
+Index = 40, Binding = 27F47A0
+Index = 41, Binding = 27E18A0
+Index = 42, Binding = 2971BE0
+Index = 43, Binding = 2971C20
+Index = 44, Binding = 29C8700
+Index = 45, Binding = 2971B60
+Index = 46, Binding = 2783AC0
+Index = 47, Binding = 2772680
+Index = 48, Binding = 2971BA0
+Index = 49, Binding = 2962D40
+Index = 50, Binding = 2957840
+InstallProtocolInterface: 64A892DC-5561-4536-92C7-799BFC183355 30516A8
+InstallProtocolInterface: 64A892DC-5561-4536-92C7-799BFC183355 30516A8 onto handle 3095418
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 304FE98
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 304FE98 onto handle 304E218
+InstallProtocolInterface: 7EE2BD44-3DA0-11D4-9A38-0090273FC14D 304E128
+InstallProtocolInterface: 7EE2BD44-3DA0-11D4-9A38-0090273FC14D 304E128 onto handle 304E218
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 304FC18
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 304FC18 onto handle 304FB98
+InstallProtocolInterface: 7EE2BD44-3DA0-11D4-9A38-0090273FC14D 304F6A8
+InstallProtocolInterface: 7EE2BD44-3DA0-11D4-9A38-0090273FC14D 304F6A8 onto handle 304FB98
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 304FA18
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 304FA18 onto handle 304FA98
+InstallProtocolInterface: 7EE2BD44-3DA0-11D4-9A38-0090273FC14D 304F8A8
+InstallProtocolInterface: 7EE2BD44-3DA0-11D4-9A38-0090273FC14D 304F8A8 onto handle 304FA98
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 304DC18
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 304DC18 onto handle 304DE98
+InstallProtocolInterface: 7EE2BD44-3DA0-11D4-9A38-0090273FC14D 304DB28
+InstallProtocolInterface: 7EE2BD44-3DA0-11D4-9A38-0090273FC14D 304DB28 onto handle 304DE98
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 304D818
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 304D818 onto handle 304DA98
+InstallProtocolInterface: 7EE2BD44-3DA0-11D4-9A38-0090273FC14D 304D0A8
+InstallProtocolInterface: 7EE2BD44-3DA0-11D4-9A38-0090273FC14D 304D0A8 onto handle 304DA98
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 304D718
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 304D718 onto handle 304D698
+InstallProtocolInterface: 7EE2BD44-3DA0-11D4-9A38-0090273FC14D 304D1A8
+InstallProtocolInterface: 7EE2BD44-3DA0-11D4-9A38-0090273FC14D 304D1A8 onto handle 304D698
+SortedDriverBindingProtocols -> 
+Index = 0, Binding = 27AB8E0
+Index = 1, Binding = 279AEA0
+Index = 2, Binding = 27B8DC0
+Index = 3, Binding = 3A22880
+Index = 4, Binding = 2765F80
+Index = 5, Binding = 2998340
+Index = 6, Binding = 29902C0
+Index = 7, Binding = 2989040
+Index = 8, Binding = 29832C0
+Index = 9, Binding = 290F940
+Index = 10, Binding = 28FD900
+Index = 11, Binding = 28F0CC0
+Index = 12, Binding = 27C4840
+Index = 13, Binding = 29ACF20
+Index = 14, Binding = 29A67E0
+Index = 15, Binding = 299FC80
+
+/* QemuVideo */
+Index = 16, Binding = 275AD40
+
+Index = 17, Binding = 274E1C0
+Index = 18, Binding = 29404A0
+Index = 19, Binding = 29494E0
+Index = 20, Binding = 292FE20
+Index = 21, Binding = 29278E0
+Index = 22, Binding = 2916680
+Index = 23, Binding = 29791E0
+Index = 24, Binding = 2979220
+Index = 25, Binding = 2971B20
+Index = 26, Binding = 28DF340
+Index = 27, Binding = 28D9AC0
+Index = 28, Binding = 28D1040
+Index = 29, Binding = 28C4FC0
+Index = 30, Binding = 28B3DA0
+Index = 31, Binding = 28A1CC0
+Index = 32, Binding = 2894220
+Index = 33, Binding = 2880860
+Index = 34, Binding = 2874280
+Index = 35, Binding = 2867120
+Index = 36, Binding = 2853600
+Index = 37, Binding = 28337C0
+Index = 38, Binding = 28223A0
+Index = 39, Binding = 2810D80
+Index = 40, Binding = 27F47A0
+Index = 41, Binding = 27E18A0
+Index = 42, Binding = 2971BE0
+Index = 43, Binding = 2971C20
+Index = 44, Binding = 29C8700
+Index = 45, Binding = 2971B60
+Index = 46, Binding = 2783AC0
+Index = 47, Binding = 2772680
+Index = 48, Binding = 2971BA0
+Index = 49, Binding = 2962D40
+Index = 50, Binding = 2957840

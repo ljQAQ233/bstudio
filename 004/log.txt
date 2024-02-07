@@ -1,0 +1,401 @@
+Trying ::1...
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+InitializeQemuVideo: ImageHandle : 3096098
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 275AD40
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 275AD40 onto handle 3096098
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 275ACC0
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 275ACC0 onto handle 3096098
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 275ACE0
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 275ACE0 onto handle 3096098
+InstallProtocolInterface: 5C198761-16A8-4E69-972C-89D67954F81D 275AE00
+InstallProtocolInterface: 5C198761-16A8-4E69-972C-89D67954F81D 275AE00 onto handle 3096098
+Loading driver D6099B94-CD97-4CC5-8714-7F6312701A8A
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 30967C0
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 30967C0 onto handle 3096A18
+    PDB = /home/maouai233/TextOS/Build/Boot/OVMF_X64/NOOPT_GCC5/X64/OvmfPkg/VirtioGpuDxe/VirtioGpu/DEBUG/VirtioGpuDxe.dll
+Loading driver at 0x00002744000 EntryPoint=0x0000274A382 VirtioGpuDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 3096B18
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 3096B18 onto handle 3096A18
+ProtectUefiImageCommon - 0x30967C0
+  - 0x0000000002744000 - 0x000000000000A500
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 274E1C0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 274E1C0 onto handle 3096A18
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 274E1A0
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 274E1A0 onto handle 3096A18
+[Bds] Entry...
+[BdsDxe] Locate Variable Lock protocol - Success
+[Variable] Lock: 8BE4DF61-93CA-11D2-AA0D-00E098032B8C:PlatformLangCodes Success
+[Variable] Lock: 8BE4DF61-93CA-11D2-AA0D-00E098032B8C:LangCodes Success
+[Variable] Lock: 8BE4DF61-93CA-11D2-AA0D-00E098032B8C:BootOptionSupport Success
+[Variable] Lock: 8BE4DF61-93CA-11D2-AA0D-00E098032B8C:HwErrRecSupport Success
+[Variable] Lock: 8BE4DF61-93CA-11D2-AA0D-00E098032B8C:OsIndicationsSupported Success
+Variable Driver Auto Update PlatformLang, PlatformLang:en, Lang:eng Status: Success
+[Variable] Lock: 8BE4DF61-93CA-11D2-AA0D-00E098032B8C:PlatformRecovery0000 Success
+PlatformBootManagerBeforeConsole
+Registered NotifyDevPath Event
+PCI Bus First Scanning
+PciBus: Discovered PCI @ [00|00|00]
+
+PciBus: Discovered PCI @ [00|01|00]
+
+PciBus: Discovered PCI @ [00|01|01]
+   BAR[4]: Type =   Io32; Alignment = 0xF;	Length = 0x10;	Offset = 0x20	Vendor = 0x8086
+
+PciBus: Discovered PCI @ [00|01|03]
+
+PciBus: Discovered PCI @ [00|02|00]
+   BAR[0]: Type = PMem32; Alignment = 0xFFFFFF;	Length = 0x1000000;	Offset = 0x10	Vendor = 0x1234
+   BAR[2]: Type =  Mem32; Alignment = 0xFFF;	Length = 0x1000;	Offset = 0x18	Vendor = 0x1234
+
+PCI Bus Second Scanning
+PciBus: Discovered PCI @ [00|00|00]
+
+PciBus: Discovered PCI @ [00|01|00]
+
+PciBus: Discovered PCI @ [00|01|01]
+   BAR[4]: Type =   Io32; Alignment = 0xF;	Length = 0x10;	Offset = 0x20	Vendor = 0x8086
+
+PciBus: Discovered PCI @ [00|01|03]
+
+PciBus: Discovered PCI @ [00|02|00]
+   BAR[0]: Type = PMem32; Alignment = 0xFFFFFF;	Length = 0x1000000;	Offset = 0x10	Vendor = 0x1234
+   BAR[2]: Type =  Mem32; Alignment = 0xFFF;	Length = 0x1000;	Offset = 0x18	Vendor = 0x1234
+
+PciBus: Discovered PCI @ [00|00|00]
+
+PciBus: Discovered PCI @ [00|01|00]
+
+PciBus: Discovered PCI @ [00|01|01]
+   BAR[4]: Type =   Io32; Alignment = 0xF;	Length = 0x10;	Offset = 0x20	Vendor = 0x8086
+
+PciBus: Discovered PCI @ [00|01|03]
+
+PciBus: Discovered PCI @ [00|02|00]
+   BAR[0]: Type = PMem32; Alignment = 0xFFFFFF;	Length = 0x1000000;	Offset = 0x10	Vendor = 0x1234
+   BAR[2]: Type =  Mem32; Alignment = 0xFFF;	Length = 0x1000;	Offset = 0x18	Vendor = 0x1234
+
+PciHostBridge: SubmitResources for PciRoot(0x0)
+ I/O: Granularity/SpecificFlag = 0 / 01
+      Length/Alignment = 0x1000 / 0xFFF
+ Mem: Granularity/SpecificFlag = 32 / 00
+      Length/Alignment = 0x1100000 / 0xFFFFFF
+PciBus: HostBridge->SubmitResources() - Success
+PciHostBridge: NotifyPhase (AllocateResources)
+ RootBridge: PciRoot(0x0)
+  Mem: Base/Length/Alignment = 80000000/1100000/FFFFFF - Success
+  I/O: Base/Length/Alignment = C000/1000/FFF - Success
+PciBus: HostBridge->NotifyPhase(AllocateResources) - Success
+PciBus: Resource Map for Root Bridge PciRoot(0x0)
+Type =   Io16; Base = 0xC000;	Length = 0x1000;	Alignment = 0xFFF
+   Base = 0xC000;	Length = 0x10;	Alignment = 0xF;	Owner = PCI [00|01|01:20]
+Type =  Mem32; Base = 0x80000000;	Length = 0x1100000;	Alignment = 0xFFFFFF
+   Base = 0x80000000;	Length = 0x1000000;	Alignment = 0xFFFFFF;	Owner = PCI [00|02|00:10]; Type = PMem32
+   Base = 0x81000000;	Length = 0x1000;	Alignment = 0xFFF;	Owner = PCI [00|02|00:18]
+
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 3094F98
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 3094F98 onto handle 3093C98
+InstallProtocolInterface: 4CF5B200-68B8-4CA5-9EEC-B23E3F50029A 3094B28
+InstallProtocolInterface: 4CF5B200-68B8-4CA5-9EEC-B23E3F50029A 3094B28 onto handle 3093C98
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 3094498
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 3094498 onto handle 3093A98
+InstallProtocolInterface: 4CF5B200-68B8-4CA5-9EEC-B23E3F50029A 30940A8
+InstallProtocolInterface: 4CF5B200-68B8-4CA5-9EEC-B23E3F50029A 30940A8 onto handle 3093A98
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 3094A98
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 3094A98 onto handle 3093818
+InstallProtocolInterface: 4CF5B200-68B8-4CA5-9EEC-B23E3F50029A 3094528
+InstallProtocolInterface: 4CF5B200-68B8-4CA5-9EEC-B23E3F50029A 3094528 onto handle 3093818
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 3093E98
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 3093E98 onto handle 3091D18
+InstallProtocolInterface: 4CF5B200-68B8-4CA5-9EEC-B23E3F50029A 3093028
+InstallProtocolInterface: 4CF5B200-68B8-4CA5-9EEC-B23E3F50029A 3093028 onto handle 3091D18
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 3093F18
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 3093F18 onto handle 3091798
+InstallProtocolInterface: 4CF5B200-68B8-4CA5-9EEC-B23E3F50029A 3093428
+InstallProtocolInterface: 4CF5B200-68B8-4CA5-9EEC-B23E3F50029A 3093428 onto handle 3091798
+InstallProtocolInterface: 30CFE3E7-3DE1-4586-BE20-DEABA1B3B793 0
+InstallProtocolInterface: 30CFE3E7-3DE1-4586-BE20-DEABA1B3B793 0 onto handle 30D4498
+OnRootBridgesConnected: root bridges have been connected, installing ACPI tables
+Select Item: 0x19
+Select Item: 0x29
+Select Item: 0x19
+Select Item: 0x28
+Select Item: 0x19
+Select Item: 0x22
+Select Item: 0x19
+Select Item: 0x23
+InstallQemuFwCfgTables: installed 6 tables
+PcRtc: Write 0x20 to CMOS location 0x32
+[Variable]END_OF_DXE is signaled
+Initialize variable error flag (FF)
+AcpiS3ContextSave!
+AcpiS3Context: AcpiFacsTable is 0x 3BFC000
+AcpiS3Context: IdtrProfile is 0x 3BF0000
+AcpiS3Context: S3NvsPageTableAddress is 0x       0
+AcpiS3Context: S3DebugBufferAddress is 0x 273B000
+AcpiS3Context: BootScriptStackBase is 0x 273C000
+AcpiS3Context: BootScriptStackSize is 0x    8000
+Select Item: 0x19
+Select Item: 0x28
+InstallProtocolInterface: 60FF8964-E906-41D0-AFED-F241E974E08E 0
+InstallProtocolInterface: FA20568B-548B-4B2B-81EF-1BA08D4A3CEC 0
+InstallProtocolInterface: FA20568B-548B-4B2B-81EF-1BA08D4A3CEC 0 onto handle 3085A18
+    PDB = /home/maouai233/TextOS/Build/Boot/OVMF_X64/NOOPT_GCC5/X64/MdeModulePkg/Universal/Acpi/BootScriptExecutorDxe/BootScriptExecutorDxe/DEBUG/BootScriptExecutorDxe.dll
+Select Item: 0x0
+FW CFG Signature: 0x554D4551
+Select Item: 0x1
+FW CFG Revision: 0x3
+QemuFwCfg interface (DMA) is supported.
+Select Item: 0x19
+Select Item: 0x28
+InstallProtocolInterface: 60FF8964-E906-41D0-AFED-F241E974E08E 0 onto handle 3095D18
+Found PCI display device
+QemuVideo: QEMU Standard VGA detected
+QemuVideo: Using mmio bar @ 0x81000000
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 3085A98
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 3085A98 onto handle 3084C98
+QemuVideoBochsModeSetup: AvailableFbSize=0x1000000
+Adding Mode 0 as Bochs Internal Mode 0: 640x480, 32-bit
+Adding Mode 1 as Bochs Internal Mode 1: 800x480, 32-bit
+Adding Mode 2 as Bochs Internal Mode 2: 800x600, 32-bit
+Adding Mode 3 as Bochs Internal Mode 3: 832x624, 32-bit
+Adding Mode 4 as Bochs Internal Mode 4: 960x640, 32-bit
+Adding Mode 5 as Bochs Internal Mode 5: 1024x600, 32-bit
+Adding Mode 6 as Bochs Internal Mode 6: 1024x768, 32-bit
+Adding Mode 7 as Bochs Internal Mode 7: 1152x864, 32-bit
+Adding Mode 8 as Bochs Internal Mode 8: 1152x870, 32-bit
+Adding Mode 9 as Bochs Internal Mode 9: 1280x720, 32-bit
+Adding Mode 10 as Bochs Internal Mode 10: 1280x760, 32-bit
+Adding Mode 11 as Bochs Internal Mode 11: 1280x768, 32-bit
+Adding Mode 12 as Bochs Internal Mode 12: 1280x800, 32-bit
+Adding Mode 13 as Bochs Internal Mode 13: 1280x960, 32-bit
+Adding Mode 14 as Bochs Internal Mode 14: 1280x1024, 32-bit
+Adding Mode 15 as Bochs Internal Mode 15: 1360x768, 32-bit
+Adding Mode 16 as Bochs Internal Mode 16: 1366x768, 32-bit
+Adding Mode 17 as Bochs Internal Mode 17: 1400x1050, 32-bit
+Adding Mode 18 as Bochs Internal Mode 18: 1440x900, 32-bit
+Adding Mode 19 as Bochs Internal Mode 19: 1600x900, 32-bit
+Adding Mode 20 as Bochs Internal Mode 20: 1600x1200, 32-bit
+Adding Mode 21 as Bochs Internal Mode 21: 1680x1050, 32-bit
+Adding Mode 22 as Bochs Internal Mode 22: 1920x1080, 32-bit
+Adding Mode 23 as Bochs Internal Mode 23: 1920x1200, 32-bit
+Adding Mode 24 as Bochs Internal Mode 24: 1920x1440, 32-bit
+Adding Mode 25 as Bochs Internal Mode 25: 2000x2000, 32-bit
+Adding Mode 26 as Bochs Internal Mode 26: 2048x1536, 32-bit
+Adding Mode 27 as Bochs Internal Mode 27: 2048x2048, 32-bit
+Adding Mode 28 as Bochs Internal Mode 28: 2560x1440, 32-bit
+Adding Mode 29 as Bochs Internal Mode 29: 2560x1600, 32-bit
+InitializeBochsGraphicsMode: 640x480 @ 32
+PixelBlueGreenRedReserved8BitPerColor
+FrameBufferBase: 0x80000000, FrameBufferSize: 0x12C000
+0: shl:0 shr:0 mask:FF0000
+1: shl:0 shr:0 mask:FF00
+2: shl:0 shr:0 mask:FF
+Bytes per pixel: 4
+0: shl:0 shr:0 mask:FF0000
+1: shl:0 shr:0 mask:FF00
+2: shl:0 shr:0 mask:FF
+Bytes per pixel: 4
+InstallProtocolInterface: 9042A9DE-23DC-4A38-96FB-7ADED080516A 3095538
+InstallProtocolInterface: 9042A9DE-23DC-4A38-96FB-7ADED080516A 3095538 onto handle 3084C98
+InstallVbeShim: VBE shim installed
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+Select Item: 0xE
+[Bds]RegisterKeyNotify: 000C/0000 80000000/00 Success
+[Bds]RegisterKeyNotify: 0017/0000 80000000/00 Success
+[Bds]RegisterKeyNotify: 0000/000D 80000000/00 Success
+InstallProtocolInterface: 64A892DC-5561-4536-92C7-799BFC183355 30B6328
+InstallProtocolInterface: 64A892DC-5561-4536-92C7-799BFC183355 30B6328 onto handle 3093A98
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 3086F18
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 3086F18 onto handle 3086F98
+InstallProtocolInterface: 7EE2BD44-3DA0-11D4-9A38-0090273FC14D 3086B28
+InstallProtocolInterface: 7EE2BD44-3DA0-11D4-9A38-0090273FC14D 3086B28 onto handle 3086F98
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 3086E18
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 3086E18 onto handle 3086818
+InstallProtocolInterface: 7EE2BD44-3DA0-11D4-9A38-0090273FC14D 30860A8
+InstallProtocolInterface: 7EE2BD44-3DA0-11D4-9A38-0090273FC14D 30860A8 onto handle 3086818
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 3086698
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 3086698 onto handle 3086718
+InstallProtocolInterface: 7EE2BD44-3DA0-11D4-9A38-0090273FC14D 30861A8
+InstallProtocolInterface: 7EE2BD44-3DA0-11D4-9A38-0090273FC14D 30861A8 onto handle 3086718
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 3086418
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 3086418 onto handle 3086498
+InstallProtocolInterface: 7EE2BD44-3DA0-11D4-9A38-0090273FC14D 3086328
+InstallProtocolInterface: 7EE2BD44-3DA0-11D4-9A38-0090273FC14D 3086328 onto handle 3086498
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 3083F98
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 3083F98 onto handle 3083C18
+InstallProtocolInterface: 7EE2BD44-3DA0-11D4-9A38-0090273FC14D 3083B28
+InstallProtocolInterface: 7EE2BD44-3DA0-11D4-9A38-0090273FC14D 3083B28 onto handle 3083C18
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 3083E18
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 3083E18 onto handle 3083818
+InstallProtocolInterface: 7EE2BD44-3DA0-11D4-9A38-0090273FC14D 30830A8
+InstallProtocolInterface: 7EE2BD44-3DA0-11D4-9A38-0090273FC14D 30830A8 onto handle 3083818
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+InitializeBochsGraphicsMode: 800x600 @ 32
+PixelBlueGreenRedReserved8BitPerColor
+FrameBufferBase: 0x80000000, FrameBufferSize: 0x1D4C00
+0: shl:0 shr:0 mask:FF0000
+1: shl:0 shr:0 mask:FF00
+2: shl:0 shr:0 mask:FF
+Bytes per pixel: 4
+0: shl:0 shr:0 mask:FF0000
+1: shl:0 shr:0 mask:FF00
+2: shl:0 shr:0 mask:FF
+Bytes per pixel: 4
+GraphicsConsole video resolution 800 x 600
+Graphics - Mode 0, Column = 80, Row = 25
+Graphics - Mode 1, Column = 0, Row = 0
+Graphics - Mode 2, Column = 100, Row = 31
+InstallProtocolInterface: 387477C2-69C7-11D2-8E39-00A0C969723B 3083230
+InstallProtocolInterface: 387477C2-69C7-11D2-8E39-00A0C969723B 3083230 onto handle 3084C98
+InstallProtocolInterface: D3B36F2C-D551-11D4-9A46-0090273FC14D 0
+InstallProtocolInterface: D3B36F2C-D551-11D4-9A46-0090273FC14D 0 onto handle 3084C98
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+PixelBlueGreenRedReserved8BitPerColor
+InstallProtocolInterface: 9042A9DE-23DC-4A38-96FB-7ADED080516A 2971980
+InstallProtocolInterface: 9042A9DE-23DC-4A38-96FB-7ADED080516A 2971980 onto handle 30AE798
+InstallProtocolInterface: 387477C1-69C7-11D2-8E39-00A0C969723B 3070028
+InstallProtocolInterface: 387477C1-69C7-11D2-8E39-00A0C969723B 3070028 onto handle 3086718
+InstallProtocolInterface: DD9E7534-7762-4698-8C14-F58517A625AA 3070040
+InstallProtocolInterface: DD9E7534-7762-4698-8C14-F58517A625AA 3070040 onto handle 3086718
+InstallProtocolInterface: D3B36F2B-D551-11D4-9A46-0090273FC14D 0
+InstallProtocolInterface: D3B36F2B-D551-11D4-9A46-0090273FC14D 0 onto handle 3086718
+PlatformBootManagerAfterConsole
+PlatformBdsPolicyBehavior: not restoring NvVars from disk since flash variables appear to be supported.
+Boot Mode:0
+PlatformBdsConnectSequence
+EfiBootManagerConnectAll
+Terminal - Mode 0, Column = 80, Row = 25
+Terminal - Mode 1, Column = 80, Row = 50
+Terminal - Mode 2, Column = 100, Row = 31
+[2J[01;01H[=3h[2J[01;01HInstallProtocolInterface: 387477C1-69C7-11D2-8E39-00A0C969723B 3072940
+InstallProtocolInterface: 387477C1-69C7-11D2-8E39-00A0C969723B 3072940 onto handle 3072198
+InstallProtocolInterface: DD9E7534-7762-4698-8C14-F58517A625AA 3072A28
+InstallProtocolInterface: DD9E7534-7762-4698-8C14-F58517A625AA 3072A28 onto handle 3072198
+InstallProtocolInterface: 387477C2-69C7-11D2-8E39-00A0C969723B 3072958
+InstallProtocolInterface: 387477C2-69C7-11D2-8E39-00A0C969723B 3072958 onto handle 3072198
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 3072B18
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 3072B18 onto handle 3072198
+InstallProtocolInterface: 964E5B21-6459-11D2-8E39-00A0C969723B 306E928
+InstallProtocolInterface: 964E5B21-6459-11D2-8E39-00A0C969723B 306E928 onto handle 3083C18
+InstallProtocolInterface: CE345171-BA0B-11D2-8E4F-00A0C969723B 306DBA0
+InstallProtocolInterface: CE345171-BA0B-11D2-8E4F-00A0C969723B 306DBA0 onto handle 3083C18
+FatOpenDevice: read of part_lba failed No Media
+InstallProtocolInterface: 964E5B21-6459-11D2-8E39-00A0C969723B 306E3A8
+InstallProtocolInterface: 964E5B21-6459-11D2-8E39-00A0C969723B 306E3A8 onto handle 3083818
+InstallProtocolInterface: CE345171-BA0B-11D2-8E4F-00A0C969723B 306D520
+InstallProtocolInterface: CE345171-BA0B-11D2-8E4F-00A0C969723B 306D520 onto handle 3083818
+FatOpenDevice: read of part_lba failed No Media
+SataControllerStart START
+InstallProtocolInterface: A1E37052-80D9-4E65-A317-3E9A55C43EC9 306D120
+InstallProtocolInterface: A1E37052-80D9-4E65-A317-3E9A55C43EC9 306D120 onto handle 3093818
+SataControllerStart END status = Success
+==AtaAtapiPassThru Start== Controller = 3093818
+[primary  ] channel [master] [harddisk] device
+Enabled S.M.A.R.T feature at [primary] channel [master] device!
+CalculateBestPioMode: AdvancedPioMode = 3
+IdeInitCalculateMode: PioMode = 4
+CalculateBestUdmaMode: DeviceUDmaMode = 203F
+IdeInitCalculateMode: UdmaMode = 5
+[secondary] channel [master] [cdrom   ] device
+CalculateBestPioMode: AdvancedPioMode = 3
+IdeInitCalculateMode: PioMode = 3
+CalculateBestUdmaMode: DeviceUDmaMode = 203F
+IdeInitCalculateMode: UdmaMode = 5
+InstallProtocolInterface: 1D3DE7F0-0807-424F-AA69-11A54E19A46F 3050B40
+InstallProtocolInterface: 1D3DE7F0-0807-424F-AA69-11A54E19A46F 3050B40 onto handle 3093818
+InstallProtocolInterface: 143B7632-B81B-4CB7-ABD3-B625A5B9BFFE 3050B90
+InstallProtocolInterface: 143B7632-B81B-4CB7-ABD3-B625A5B9BFFE 3050B90 onto handle 3093818
+InstallProtocolInterface: 19DF145A-B1D4-453F-8507-38816676D7F6 3050698
+InstallProtocolInterface: 19DF145A-B1D4-453F-8507-38816676D7F6 3050698 onto handle 3093818
+AtaBus - Identify Device: Port 0 PortMultiplierPort 0
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 304FF98
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 304FF98 onto handle 304FA98
+InstallProtocolInterface: 964E5B21-6459-11D2-8E39-00A0C969723B 304FC28
+InstallProtocolInterface: 964E5B21-6459-11D2-8E39-00A0C969723B 304FC28 onto handle 304FA98
+InstallProtocolInterface: A77B2472-E282-4E9F-A245-C2C0E27BBCC1 304FC58
+InstallProtocolInterface: A77B2472-E282-4E9F-A245-C2C0E27BBCC1 304FC58 onto handle 304FA98
+InstallProtocolInterface: D432A67F-14DC-484B-B3BB-3F0291849327 304FCB0
+InstallProtocolInterface: D432A67F-14DC-484B-B3BB-3F0291849327 304FCB0 onto handle 304FA98
+Found TCG support in Port 0 PortMultiplierPort 0
+InstallProtocolInterface: C88B0B6D-0DFC-49A7-9CB4-49074B4C3A78 304FCE8
+InstallProtocolInterface: C88B0B6D-0DFC-49A7-9CB4-49074B4C3A78 304FCE8 onto handle 304FA98
+Successfully Install Storage Security Protocol on the ATA device
+InstallProtocolInterface: 0167CCC4-D0F7-4F21-A3EF-9E64B7CDCE8B 304F1A0
+InstallProtocolInterface: 0167CCC4-D0F7-4F21-A3EF-9E64B7CDCE8B 304F1A0 onto handle 3093818
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 304F298
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 304F298 onto handle 304C018
+InstallProtocolInterface: 932F47E6-2362-4002-803E-3CD54B138F85 304F328
+InstallProtocolInterface: 932F47E6-2362-4002-803E-3CD54B138F85 304F328 onto handle 304C018
+InstallProtocolInterface: 964E5B21-6459-11D2-8E39-00A0C969723B 304C328
+InstallProtocolInterface: 964E5B21-6459-11D2-8E39-00A0C969723B 304C328 onto handle 304C018
+InstallProtocolInterface: A77B2472-E282-4E9F-A245-C2C0E27BBCC1 304C358
+InstallProtocolInterface: A77B2472-E282-4E9F-A245-C2C0E27BBCC1 304C358 onto handle 304C018
+InstallProtocolInterface: D432A67F-14DC-484B-B3BB-3F0291849327 304C450
+InstallProtocolInterface: D432A67F-14DC-484B-B3BB-3F0291849327 304C450 onto handle 304C018
+InstallProtocolInterface: CE345171-BA0B-11D2-8E4F-00A0C969723B 304B020
+InstallProtocolInterface: CE345171-BA0B-11D2-8E4F-00A0C969723B 304B020 onto handle 304C018
+InstallProtocolInterface: 151C8EAE-7F2C-472C-9E54-9828194F6A88 304B038
+InstallProtocolInterface: 151C8EAE-7F2C-472C-9E54-9828194F6A88 304B038 onto handle 304C018
+ BlockSize : 2048 
+ LastBlock : 0 
